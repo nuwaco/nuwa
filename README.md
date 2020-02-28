@@ -1,4 +1,4 @@
-![Mastodon](https://i.imgur.com/NhZc40l.png)
+![NUWA Social]
 ========
 
 [![GitHub release](https://img.shields.io/github/release/tootsuite/mastodon.svg)][releases]
