@@ -38,10 +38,10 @@
           .column-1
             %h4= t 'footer.developers'
             %ul
-              %li= link_to t('about.documentation'), 'https://docs.joinmastodon.org/'
-              %li= link_to t('about.api'), 'https://docs.joinmastodon.org/api/guidelines/'
+              %li= link_to t('about.documentation'), 'https://docs.nuwa.org/'
+              %li= link_to t('about.api'), 'https://docs.nuwa.org/api/guidelines/'
           .column-2
-            %h4= link_to t('about.what_is_mastodon'), 'https://joinmastodon.org/'
+            %h4= link_to t('about.what_is_mastodon'), 'https://nuwa.org/'
             = link_to svg_logo, root_url, class: 'brand'
           .column-3
             %h4= site_hostname
@@ -51,7 +51,6 @@
           .column-4
             %h4= t 'footer.more'
             %ul
-              %li= link_to t('about.source_code'), Mastodon::Version.source_url
-              %li= link_to t('about.apps'), 'https://joinmastodon.org/apps'
+              %li= link_to t('about.apps'), 'https://nuwa.org/apps'
 
 = render template: 'layouts/application'
