@@ -41,14 +41,10 @@
               %li= link_to t('about.documentation'), 'https://docs.nuwa.org/'
               %li= link_to t('about.api'), 'https://docs.nuwa.org/api/guidelines/'
           .column-2
-            %h4= link_to t('about.what_is_mastodon'), 'https://nuwa.org/'
-            = link_to svg_logo, root_url, class: 'brand'
-          .column-3
             %h4= site_hostname
             %ul
               %li= link_to t('about.about_this'), about_more_path
-              %li= "v#{Mastodon::Version.to_s}"
-          .column-4
+          .column-3
             %h4= t 'footer.more'
             %ul
               %li= link_to t('about.apps'), 'https://nuwa.org/apps'
