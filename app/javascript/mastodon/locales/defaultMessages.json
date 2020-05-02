@@ -2705,7 +2705,7 @@
         "id": "navigation_bar.logout"
       },
       {
-        "defaultMessage": "nuwa is close source software. ",
+        "defaultMessage": "nuwa ",
         "id": "getting_started.open_source_notice"
       }
     ],

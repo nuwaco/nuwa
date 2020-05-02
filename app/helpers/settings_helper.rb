@@ -1,7 +1,8 @@
 # frozen_string_literal: true
 
 module SettingsHelper
-  HUMAN_LOCALES = {
+=begin  
+ HUMAN_LOCALES = {
     ar: 'العربية',
     ast: 'Asturianu',
     bg: 'Български',
@@ -72,7 +73,20 @@ module SettingsHelper
     'zh-HK': '繁體中文（香港）',
     'zh-TW': '繁體中文（臺灣）',
     zh: '中文',
-  }.freeze
+  }.freeze 
+=end
+
+
+  
+  HUMAN_LOCALES = {
+     en: 'English',
+     'zh-CN': '简体中文',
+     'zh-HK': '繁體中文（香港）',
+     'zh-TW': '繁體中文（臺灣）',
+     zh: '中文',
+   }.freeze 
+   
+
 
   def human_locale(locale)
     HUMAN_LOCALES[locale]
