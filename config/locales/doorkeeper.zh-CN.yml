@@ -127,7 +127,7 @@ zh-CN:
       read:accounts: 查看账号信息
       read:blocks: 查看你的屏蔽列表
       read:bookmarks: 查看您的书签
-      read:favourites: 查看喜欢的嘟文
+      read:favourites: 查看喜欢的哇文
       read:filters: 查看你的过滤器
       read:follows: 查看你的关注
       read:lists: 查看你的列表
@@ -135,12 +135,12 @@ zh-CN:
       read:notifications: 查看你的通知
       read:reports: 查看你的举报
       read:search: 以你的身份搜索
-      read:statuses: 查看所有嘟文
+      read:statuses: 查看所有哇文
       write: 修改你的账号数据
       write:accounts: 修改你的个人资料
       write:blocks: 屏蔽账号和域名
-      write:bookmarks: 为嘟文添加书签
-      write:favourites: 喜欢的嘟文
+      write:bookmarks: 为哇文添加书签
+      write:favourites: 喜欢的哇文
       write:filters: 创建过滤器
       write:follows: 关注其他人
       write:lists: 创建列表
@@ -148,4 +148,4 @@ zh-CN:
       write:mutes: 隐藏用户和对话
       write:notifications: 清除你的通知
       write:reports: 举报他人
-      write:statuses: 发表嘟文
+      write:statuses: 发表哇文

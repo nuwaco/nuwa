@@ -1,7 +1,7 @@
 ---
 zh-CN:
   about:
-    about_hashtag_html: 这里展示的是带有话题标签 <strong>#%{hashtag}</strong> 的公开嘟文。如果你想与他们互动，你需要在任意一个 Nuwa 站点或与其兼容的网站上拥有一个帐户。
+    about_hashtag_html: 这里展示的是带有话题标签 <strong>#%{hashtag}</strong> 的公开哇文。如果你想与他们互动，你需要在任意一个 Nuwa 站点或与其兼容的网站上拥有一个帐户。
     about_mastodon_html: Nuwa 是一个建立在开放式网络协议和自由、开源软件之上的社交网络，有着类似于电子邮件的分布式设计。
     about_this: 关于本站
     active_count_after: 活跃
@@ -11,8 +11,8 @@ zh-CN:
     apps: 移动应用
     apps_platforms: 在 iOS、Android 和其他平台上使用 Nuwa
     browse_directory: 浏览用户目录并按兴趣筛选
-    browse_local_posts: 浏览此服务器上实时公开嘟文
-    browse_public_posts: 浏览 Nuwa 上公共嘟文的实时信息流
+    browse_local_posts: 浏览此服务器上实时公开哇文
+    browse_public_posts: 浏览 Nuwa 上公共哇文的实时信息流
     contact: 联系方式
     contact_missing: 未设定
     contact_unavailable: 未公开
@@ -30,8 +30,8 @@ zh-CN:
     server_stats: 服务器统计数据：
     source_code: 源代码
     status_count_after:
-      other: 条嘟文
-    status_count_before: 他们共嘟出了
+      other: 条哇文
+    status_count_before: 他们共哇出了
     tagline: 关注并发现新朋友
     terms: 使用条款
     unavailable_content: 不可用的内容
@@ -67,9 +67,9 @@ zh-CN:
     pin_errors:
       following: 您必须关注您要推荐的人
     posts:
-      other: 嘟文
-    posts_tab_heading: 嘟文
-    posts_with_replies: 嘟文和回复
+      other: 哇文
+    posts_tab_heading: 哇文
+    posts_with_replies: 哇文和回复
     reserved_username: 此用户名已被保留
     roles:
       admin: 管理员
@@ -175,7 +175,7 @@ zh-CN:
         targeted_reports: 针对这个帐户的举报
       silence: 隐藏
       silenced: 已隐藏
-      statuses: 嘟文
+      statuses: 哇文
       subscribe: 订阅
       suspended: 已封禁
       time_in_queue: 已经等待了 %{time}
@@ -205,7 +205,7 @@ zh-CN:
         destroy_domain_allow: "%{name} 从白名单中移除了域名 %{target}"
         destroy_domain_block: "%{name} 解除了对域名 %{target} 的屏蔽"
         destroy_email_domain_block: "%{name} 解除了对电子邮件域名 %{target} 的屏蔽"
-        destroy_status: "%{name} 删除了 %{target} 的嘟文"
+        destroy_status: "%{name} 删除了 %{target} 的哇文"
         disable_2fa_user: "%{name} 停用了用户 %{target} 的双重认证"
         disable_custom_emoji: "%{name} 停用了自定义表情 %{target}"
         disable_user: "%{name} 将用户 %{target} 设置为禁止登录"
@@ -224,8 +224,8 @@ zh-CN:
         unsuspend_account: "%{name} 解除了用户 %{target} 的封禁状态"
         update_announcement: "%{name} 更新了公告 %{target}"
         update_custom_emoji: "%{name} 更新了自定义表情 %{target}"
-        update_status: "%{name} 刷新了 %{target} 的嘟文"
-      deleted_status: "（嘟文已删除）"
+        update_status: "%{name} 刷新了 %{target} 的哇文"
+      deleted_status: "（哇文已删除）"
       title: 运营日志
     announcements:
       destroyed_msg: 公告已删除！
@@ -318,7 +318,7 @@ zh-CN:
         create: 添加屏蔽
         hint: 域名屏蔽不会阻止该域名下的帐户进入本站的数据库，但是会对来自这个域名的帐户自动进行预先设置的管理操作。
         severity:
-          desc_html: 选择<strong>自动隐藏</strong>会将该域名下帐户发送的嘟文设置为仅关注者可见；选择<strong>自动封禁</strong>会将该域名下帐户发送的嘟文、媒体文件以及个人资料数据从本实例上删除；如果你只是想拒绝接收来自该域名的任何媒体文件，请选择<strong>无</strong>。
+          desc_html: 选择<strong>自动隐藏</strong>会将该域名下帐户发送的哇文设置为仅关注者可见；选择<strong>自动封禁</strong>会将该域名下帐户发送的哇文、媒体文件以及个人资料数据从本实例上删除；如果你只是想拒绝接收来自该域名的任何媒体文件，请选择<strong>无</strong>。
           noop: 无
           silence: 自动隐藏
           suspend: 自动封禁
@@ -389,11 +389,11 @@ zh-CN:
     relays:
       add_new: 订阅新的中继
       delete: 删除
-      description_html: "<strong>中继服务器</strong>是一个信息统合服务器，各服务器可以通过订阅中继服务器和向中继服务器推送信息来交换大量公开嘟文。<strong>它可以帮助中小型服务器发现联邦宇宙中的其他服务器的内容</strong>，而无需本站用户手动关注其他远程服务器上的用户。"
+      description_html: "<strong>中继服务器</strong>是一个信息统合服务器，各服务器可以通过订阅中继服务器和向中继服务器推送信息来交换大量公开哇文。<strong>它可以帮助中小型服务器发现联邦宇宙中的其他服务器的内容</strong>，而无需本站用户手动关注其他远程服务器上的用户。"
       disable: 禁用
       disabled: 已禁用
       enable: 启用
-      enable_hint: 启用此功能后，你的实例会订阅此中继的所有公开嘟文，并同时向其推送本服务器的公开嘟文。
+      enable_hint: 启用此功能后，你的实例会订阅此中继的所有公开哇文，并同时向其推送本服务器的公开哇文。
       enabled: 已启用
       inbox_url: 中继 URL
       pending: 等待中继确认
@@ -440,7 +440,7 @@ zh-CN:
       updated_at: 更新时间
     settings:
       activity_api_enabled:
-        desc_html: 本站用户发布的嘟文数，以及本站的活跃用户数和一周内新用户数
+        desc_html: 本站用户发布的哇文数，以及本站的活跃用户数和一周内新用户数
         title: 公开用户活跃度的统计数据
       bootstrap_timeline_accounts:
         desc_html: 用半角逗号分隔多个用户名。只能添加来自本站且未开启保护的帐户。如果留空，则默认关注本站所有的管理员。
@@ -495,7 +495,7 @@ zh-CN:
           open: 开放注册
         title: 注册模式
       show_known_fediverse_at_about_page:
-        desc_html: 启用此选项将会在预览中显示来自已知实例的嘟文，否则只会显示本站时间轴的内容.
+        desc_html: 启用此选项将会在预览中显示来自已知实例的哇文，否则只会显示本站时间轴的内容.
         title: 在时间轴预览中显示已知实例
       show_staff_badge:
         desc_html: 在个人资料页上显示管理人员标志
@@ -540,8 +540,8 @@ zh-CN:
       media:
         title: 媒体文件
       no_media: 不含媒体文件
-      no_status_selected: 因为没有嘟文被选中，所以没有更改
-      title: 帐户嘟文
+      no_status_selected: 因为没有哇文被选中，所以没有更改
+      title: 帐户哇文
       with_media: 含有媒体文件
     tags:
       accounts_today: 今日活跃用户
@@ -596,14 +596,14 @@ zh-CN:
       guide_link: https://nuwa.org
       guide_link_text: 每个人都可以参与翻译。
     sensitive_content: 敏感内容
-    toot_layout: 嘟文布局
+    toot_layout: 哇文布局
   application_mailer:
     notification_preferences: 更改电子邮件首选项
     salutation: "%{name}："
     settings: 使用此链接更改你的电子邮件首选项：%{link}
     view: 点此链接查看详情：
     view_profile: 查看个人资料页
-    view_status: 查看嘟文
+    view_status: 查看哇文
   applications:
     created: 应用创建成功
     destroyed: 应用删除成功
@@ -622,7 +622,7 @@ zh-CN:
     description:
       prefix_invited_by_user: "@%{name} 邀请您加入这个Nuwa服务器！"
       prefix_sign_up: 现在就注册 Nuwa！
-      suffix: 注册一个帐号，你就可以关注别人、发布嘟文、并和其它任何Nuwa服务器上的用户交流，而且还有其它更多功能！
+      suffix: 注册一个帐号，你就可以关注别人、发布哇文、并和其它任何Nuwa服务器上的用户交流，而且还有其它更多功能！
     didnt_get_confirmation: 没有收到确认邮件？
     forgot_password: 忘记密码？
     invalid_reset_password_token: 密码重置令牌无效或已过期。请重新发起重置密码请求。
@@ -693,7 +693,7 @@ zh-CN:
     warning:
       before: 在删除前，请仔细阅读下列说明：
       caches: 已被其他服务器缓存的内容可能还会保留
-      data_removal: 您的嘟文和其他数据将被永久删除
+      data_removal: 您的哇文和其他数据将被永久删除
       email_change_html: 您可以 <a href="%{path}">更换邮箱地址</a> 无需删除账号
       email_contact_html: 如果它还没送到，你可以发邮件给 <a href="mailto:%{email}">%{email}</a> 寻求帮助。
       email_reconfirmation_html: 如果您没有收到确认邮件，请点击 <a href="%{path}">重新发送</a> 。
@@ -729,7 +729,7 @@ zh-CN:
     archive_takeout:
       date: 日期
       download: 下载你的存档
-      hint_html: 你可以请求一份帐户数据存档，其中包含你的<strong>嘟文和已上传的媒体文件</strong>。导出的数据为 ActivityPub 格式，因而可以被兼容的软件读取。每次允许请求存档的间隔至少为 7 天。
+      hint_html: 你可以请求一份帐户数据存档，其中包含你的<strong>哇文和已上传的媒体文件</strong>。导出的数据为 ActivityPub 格式，因而可以被兼容的软件读取。每次允许请求存档的间隔至少为 7 天。
       in_progress: 正在准备你的存档……
       request: 请求你的存档
       size: 大小
@@ -743,7 +743,7 @@ zh-CN:
     add_new: 添加新条目
     errors:
       limit: 你所推荐的话题标签数已达上限
-    hint_html: "<strong>什么是精选话题标签？</strong> 它们被显示在您的公开个人资料中的突出位置，人们可以在这些标签下浏览您的公共嘟文。 它们是跟踪创作或长期项目的进度的重要工具。"
+    hint_html: "<strong>什么是精选话题标签？</strong> 它们被显示在您的公开个人资料中的突出位置，人们可以在这些标签下浏览您的公共哇文。 它们是跟踪创作或长期项目的进度的重要工具。"
   filters:
     contexts:
       account: 个人资料
@@ -793,7 +793,7 @@ zh-CN:
     i_am_html: 我是 %{service} 上的 %{username} 。
     identity: 身份
     inactive: 失效
-    publicize_checkbox: 并发一条这样的嘟文：
+    publicize_checkbox: 并发一条这样的哇文：
     publicize_toot: '证明完毕！我是 %{service} 上的 %{username}: %{url}'
     status: 验证状态
     view_proof: 查看证明
@@ -838,7 +838,7 @@ zh-CN:
       limit: 你所建立的列表数量已经达到上限
   media_attachments:
     validations:
-      images_and_video: 无法在嘟文中同时插入视频和图片
+      images_and_video: 无法在哇文中同时插入视频和图片
       too_many: 最多只能添加 4 张图片
   migrations:
     acct: 新帐户的 用户名@域名
@@ -876,15 +876,15 @@ zh-CN:
     digest:
       action: 查看所有通知
       body: 以下是自%{since}你最后一次登录以来错过的消息的摘要
-      mention: "%{name} 在嘟文中提到了你："
+      mention: "%{name} 在哇文中提到了你："
       new_followers_summary:
         other: 而且，你不在的时候，有 %{count} 个人关注了你！好棒！
       subject:
         other: "自从上次访问后，有 %{count} 条新通知 \U0001F418"
       title: 在你不在的这段时间……
     favourite:
-      body: 你的嘟文被 %{name} 喜欢了：
-      subject: "%{name} 喜欢了你的嘟文"
+      body: 你的哇文被 %{name} 喜欢了：
+      subject: "%{name} 喜欢了你的哇文"
       title: 新的喜欢
     follow:
       body: "%{name} 关注了你！"
@@ -897,13 +897,13 @@ zh-CN:
       title: 新的关注请求
     mention:
       action: 回复
-      body: "%{name} 在嘟文中提到了你："
+      body: "%{name} 在哇文中提到了你："
       subject: "%{name} 提到了你"
       title: 新的提及
     reblog:
-      body: 你的嘟文被 %{name} 转嘟了：
-      subject: "%{name} 转嘟了你的嘟文"
-      title: 新的转嘟
+      body: 你的哇文被 %{name} 转哇了：
+      subject: "%{name} 转哇了你的哇文"
+      title: 新的转哇
   notifications:
     email_events: 电子邮件通知事件
     email_events_hint: 选择你想要收到通知的事件：
@@ -969,16 +969,16 @@ zh-CN:
   remote_interaction:
     favourite:
       proceed: 确认标记为喜欢
-      prompt: 您想要标记此嘟文为喜欢：
+      prompt: 您想要标记此哇文为喜欢：
     reblog:
-      proceed: 确认转嘟
-      prompt: 您想要转嘟此条：
+      proceed: 确认转哇
+      prompt: 您想要转哇此条：
     reply:
       proceed: 确认回复
-      prompt: 您想要回复此嘟文：
+      prompt: 您想要回复此哇文：
   scheduled_statuses:
-    over_daily_limit: 您已超出每日定时嘟文的上限（%{limit} 条）
-    over_total_limit: 您已超出定时嘟文的上限（%{limit} 条）
+    over_daily_limit: 您已超出每日定时哇文的上限（%{limit} 条）
+    over_total_limit: 您已超出定时哇文的上限（%{limit} 条）
     too_soon: 所定的时间必须在未来
   sessions:
     activity: 最后一次活跃的时间
@@ -1051,7 +1051,7 @@ zh-CN:
         other: "%{count} 张图片"
       video:
         other: "%{count} 段视频"
-    boosted_from_html: 转嘟自 %{acct_link}
+    boosted_from_html: 转哇自 %{acct_link}
     content_warning: 内容警告：%{warning}
     disallowed_hashtags:
       other: 包含了这些禁止的话题标签：%{tags}
@@ -1059,10 +1059,10 @@ zh-CN:
     open_in_web: 在站内打开
     over_character_limit: 超过了 %{max} 字的限制
     pin_errors:
-      limit: 你所置顶的嘟文数量已经达到上限
-      ownership: 不能置顶他人的嘟文
-      private: 不能置顶非公开的嘟文
-      reblog: 不能置顶转嘟
+      limit: 你所置顶的哇文数量已经达到上限
+      ownership: 不能置顶他人的哇文
+      private: 不能置顶非公开的哇文
+      reblog: 不能置顶转哇
     poll:
       total_people:
         other: "%{count} 人"
@@ -1081,8 +1081,8 @@ zh-CN:
       unlisted: 不公开
       unlisted_long: 所有人可见，但不会出现在公共时间轴上
   stream_entries:
-    pinned: 置顶嘟文
-    reblogged: 转嘟
+    pinned: 置顶哇文
+    reblogged: 转哇
     sensitive_content: 敏感内容
   tags:
     does_not_match_previous_name: 和之前的名称不匹配
@@ -1201,8 +1201,8 @@ zh-CN:
     warning:
       explanation:
         disable: 虽然您的帐户被冻结，您的帐户数据仍然完整；但是您无法在解锁前执行任何操作。
-        silence: 当您的帐户受限时，只有已经关注过你的人才会这台服务器上看到你的嘟文，并且您会被排除在各种公共列表之外。但是，其他人仍然可以手动关注你。
-        suspend: 您的帐户已被封禁，所有的嘟文和您上传的媒体文件都已经从该服务器和您的关注者的服务器上删除并且不可恢复。
+        silence: 当您的帐户受限时，只有已经关注过你的人才会这台服务器上看到你的哇文，并且您会被排除在各种公共列表之外。但是，其他人仍然可以手动关注你。
+        suspend: 您的帐户已被封禁，所有的哇文和您上传的媒体文件都已经从该服务器和您的关注者的服务器上删除并且不可恢复。
       get_in_touch: 您可回复该邮件以联系 %{instance} 的工作人员。
       review_server_policies: 查看服务器政策
       statuses: 具体来说，适用于：
@@ -1220,12 +1220,12 @@ zh-CN:
       edit_profile_action: 设置个人资料
       edit_profile_step: 你可以自定义你的个人资料，包括上传头像、横幅图片、更改昵称等等。如果你想在新的关注者关注你之前对他们进行审核，你也可以选择为你的帐户开启保护。
       explanation: 下面是几个小贴士，希望它们能帮到你
-      final_action: 开始嘟嘟
-      final_step: '开始嘟嘟吧！即便你现在没有关注者，其他人仍然能在本站时间轴或者话题标签等地方看到你的公开嘟文。试着用 #introductions 这个话题标签介绍一下自己吧。'
+      final_action: 开始哇哇
+      final_step: '开始哇哇吧！即便你现在没有关注者，其他人仍然能在本站时间轴或者话题标签等地方看到你的公开哇文。试着用 #introductions 这个话题标签介绍一下自己吧。'
       full_handle: 你的完整用户地址
       full_handle_hint: 你需要把这个告诉你的朋友们，这样他们就能从另一台服务器向你发送信息或者关注你。
       review_preferences_action: 更改首选项
-      review_preferences_step: 记得调整你的偏好设置，比如你想接收什么类型的邮件，或者你想把你的嘟文可见范围默认设置为什么级别。如果你没有晕动病的话，考虑一下启用“自动播放 GIF 动画”这个选项吧。
+      review_preferences_step: 记得调整你的偏好设置，比如你想接收什么类型的邮件，或者你想把你的哇文可见范围默认设置为什么级别。如果你没有晕动病的话，考虑一下启用“自动播放 GIF 动画”这个选项吧。
       subject: 欢迎来到 Nuwa
       tip_federated_timeline: 跨站公共时间轴可以让你一窥更广阔的 Nuwa 网络。不过，由于它只显示你的邻居们所订阅的内容，所以并不是全部。
       tip_following: 默认情况下，你会自动关注你所在服务器的管理员。想结交更多有趣的人的话，记得多逛逛本站时间轴和跨站公共时间轴哦。
