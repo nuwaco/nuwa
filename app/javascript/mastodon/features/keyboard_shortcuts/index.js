@@ -86,7 +86,7 @@ class KeyboardShortcuts extends ImmutablePureComponent {
               </tr>
               <tr>
                 <td><kbd>alt</kbd>+<kbd>n</kbd></td>
-                <td><FormattedMessage id='keyboard_shortcuts.toot' defaultMessage='to start a brand new toot' /></td>
+                <td><FormattedMessage id='keyboard_shortcuts.waha' defaultMessage='to start a brand new waha' /></td>
               </tr>
               <tr>
                 <td><kbd>backspace</kbd></td>
@@ -130,7 +130,7 @@ class KeyboardShortcuts extends ImmutablePureComponent {
               </tr>
               <tr>
                 <td><kbd>g</kbd>+<kbd>p</kbd></td>
-                <td><FormattedMessage id='keyboard_shortcuts.pinned' defaultMessage='to open pinned toots list' /></td>
+                <td><FormattedMessage id='keyboard_shortcuts.pinned' defaultMessage='to open pinned wahas list' /></td>
               </tr>
               <tr>
                 <td><kbd>g</kbd>+<kbd>u</kbd></td>

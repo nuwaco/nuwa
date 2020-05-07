@@ -493,7 +493,7 @@
         "id": "status.filtered"
       },
       {
-        "defaultMessage": "Pinned toot",
+        "defaultMessage": "Pinned waha",
         "id": "status.pinned"
       },
       {
@@ -624,7 +624,7 @@
         "id": "empty_column.account_unavailable"
       },
       {
-        "defaultMessage": "No toots here!",
+        "defaultMessage": "No wahas here!",
         "id": "empty_column.account_timeline"
       }
     ],
@@ -713,7 +713,7 @@
         "id": "account.show_reblogs"
       },
       {
-        "defaultMessage": "Pinned toots",
+        "defaultMessage": "Pinned wahas",
         "id": "navigation_bar.pins"
       },
       {
@@ -844,7 +844,7 @@
         "id": "column.bookmarks"
       },
       {
-        "defaultMessage": "You don't have any bookmarked toots yet. When you bookmark one, it will show up here.",
+        "defaultMessage": "You don't have any bookmarked wahas yet. When you bookmark one, it will show up here.",
         "id": "empty_column.bookmarked_statuses"
       }
     ],
@@ -879,7 +879,7 @@
         "id": "account.edit_profile"
       },
       {
-        "defaultMessage": "Pinned toots",
+        "defaultMessage": "Pinned wahas",
         "id": "navigation_bar.pins"
       },
       {
@@ -1135,7 +1135,7 @@
         "id": "search_results.statuses"
       },
       {
-        "defaultMessage": "Searching toots by their content is not enabled on this Mastodon server.",
+        "defaultMessage": "Searching wahas by their content is not enabled on this Mastodon server.",
         "id": "search_results.statuses_fts_disabled"
       },
       {
@@ -1267,11 +1267,11 @@
         "id": "compose_form.lock_disclaimer.lock"
       },
       {
-        "defaultMessage": "This toot won't be listed under any hashtag as it is unlisted. Only public toots can be searched by hashtag.",
+        "defaultMessage": "This waha won't be listed under any hashtag as it is unlisted. Only public wahas can be searched by hashtag.",
         "id": "compose_form.hashtag_warning"
       },
       {
-        "defaultMessage": "This toot will only be sent to all the mentioned users.",
+        "defaultMessage": "This waha will only be sent to all the mentioned users.",
         "id": "compose_form.direct_message_warning"
       },
       {
@@ -1312,7 +1312,7 @@
         "id": "navigation_bar.logout"
       },
       {
-        "defaultMessage": "Compose new toot",
+        "defaultMessage": "Compose new waha",
         "id": "navigation_bar.compose"
       },
       {
@@ -1487,7 +1487,7 @@
         "id": "column.favourites"
       },
       {
-        "defaultMessage": "You don't have any favourite toots yet. When you favourite one, it will show up here.",
+        "defaultMessage": "You don't have any favourite wahas yet. When you favourite one, it will show up here.",
         "id": "empty_column.favourited_statuses"
       }
     ],
@@ -1500,7 +1500,7 @@
         "id": "refresh"
       },
       {
-        "defaultMessage": "No one has favourited this toot yet. When someone does, they will show up here.",
+        "defaultMessage": "No one has favourited this waha yet. When someone does, they will show up here.",
         "id": "empty_column.favourites"
       }
     ],
@@ -1643,7 +1643,7 @@
         "id": "navigation_bar.mutes"
       },
       {
-        "defaultMessage": "Pinned toots",
+        "defaultMessage": "Pinned wahas",
         "id": "navigation_bar.pins"
       },
       {
@@ -1812,7 +1812,7 @@
         "id": "introduction.interactions.reply.headline"
       },
       {
-        "defaultMessage": "You can reply to other people's and your own toots, which will chain them together in a conversation.",
+        "defaultMessage": "You can reply to other people's and your own wahas, which will chain them together in a conversation.",
         "id": "introduction.interactions.reply.text"
       },
       {
@@ -1820,7 +1820,7 @@
         "id": "introduction.interactions.reblog.headline"
       },
       {
-        "defaultMessage": "You can share other people's toots with your followers by boosting them.",
+        "defaultMessage": "You can share other people's wahas with your followers by boosting them.",
         "id": "introduction.interactions.reblog.text"
       },
       {
@@ -1828,11 +1828,11 @@
         "id": "introduction.interactions.favourite.headline"
       },
       {
-        "defaultMessage": "You can save a toot for later, and let the author know that you liked it, by favouriting it.",
+        "defaultMessage": "You can save a waha for later, and let the author know that you liked it, by favouriting it.",
         "id": "introduction.interactions.favourite.text"
       },
       {
-        "defaultMessage": "Finish toot-orial!",
+        "defaultMessage": "Finish waha-orial!",
         "id": "introduction.interactions.action"
       }
     ],
@@ -1905,8 +1905,8 @@
         "id": "keyboard_shortcuts.compose"
       },
       {
-        "defaultMessage": "to start a brand new toot",
-        "id": "keyboard_shortcuts.toot"
+        "defaultMessage": "to start a brand new waha",
+        "id": "keyboard_shortcuts.waha"
       },
       {
         "defaultMessage": "to navigate back",
@@ -1949,7 +1949,7 @@
         "id": "keyboard_shortcuts.favourites"
       },
       {
-        "defaultMessage": "to open pinned toots list",
+        "defaultMessage": "to open pinned wahas list",
         "id": "keyboard_shortcuts.pinned"
       },
       {
@@ -2253,7 +2253,7 @@
   {
     "descriptors": [
       {
-        "defaultMessage": "Pinned toot",
+        "defaultMessage": "Pinned waha",
         "id": "column.pins"
       }
     ],
@@ -2279,7 +2279,7 @@
         "id": "refresh"
       },
       {
-        "defaultMessage": "No one has boosted this toot yet. When someone does, they will show up here.",
+        "defaultMessage": "No one has boosted this waha yet. When someone does, they will show up here.",
         "id": "status.reblogs.empty"
       }
     ],
@@ -2705,7 +2705,7 @@
         "id": "navigation_bar.logout"
       },
       {
-        "defaultMessage": "nuwa ",
+        "defaultMessage": " ",
         "id": "getting_started.open_source_notice"
       }
     ],

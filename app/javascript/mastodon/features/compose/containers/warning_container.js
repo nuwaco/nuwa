@@ -19,7 +19,7 @@ const WarningWrapper = ({ needsLockWarning, hashtagWarning, directMessageWarning
   }
 
   if (hashtagWarning) {
-    return <Warning message={<FormattedMessage id='compose_form.hashtag_warning' defaultMessage="This toot won't be listed under any hashtag as it is unlisted. Only public toots can be searched by hashtag." />} />;
+    return <Warning message={<FormattedMessage id='compose_form.hashtag_warning' defaultMessage="This toot won't be listed under any hashtag as it is unlisted. Only public wahas can be searched by hashtag." />} />;
   }
 
   if (directMessageWarning) {
