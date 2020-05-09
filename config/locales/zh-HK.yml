@@ -418,7 +418,7 @@ zh-HK:
   appearance:
     localization:
       body: Nuwa 是由志願者翻譯的。
-      guide_link: https://nuwa.org
+      guide_link: https://nuwa.co
       guide_link_text: 每個人都能貢獻。
   application_mailer:
     notification_preferences: 更改電郵首選項
