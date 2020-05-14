@@ -7,21 +7,21 @@ html {
 
 // Change the colors of button texts
 .button {
-  color: $white;
+  color: $black;
 
   &.button-alternative-2 {
-    color: $white;
+    color: $black;
   }
 }
 
 .status-card__actions button,
 .status-card__actions a {
-  color: rgba($white, 0.8);
+  color: rgba($black, 0.8);
 
   &:hover,
   &:active,
   &:focus {
-    color: $white;
+    color: $black;
   }
 }
 
@@ -286,7 +286,7 @@ html {
 }
 
 .privacy-dropdown.active .privacy-dropdown__value.active .icon-button {
-  color: $white;
+  color: $black;
 }
 
 .account-gallery__item a {
@@ -345,7 +345,7 @@ html {
 .simple_form .block-button,
 .simple_form .button,
 .simple_form button {
-  color: $white;
+  color: $black;
 }
 
 .dropdown-menu__separator {

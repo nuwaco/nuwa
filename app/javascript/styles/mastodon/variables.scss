@@ -8,26 +8,52 @@ $gold-star: #ca8f04 !default;        // Dark Goldenrod
 
 $red-bookmark: $warning-red;
 
-// Values from the classic Mastodon UI
-$classic-base-color: #ddeceb;         // background color 
-$classic-secondary-color: #8B9594;    //  navigation bar text color
-$classic-highlight-color: #1A8E85;    // button background color
-$classic-primary-color: #8B9594;    // 用户目录的勾选
 
 
 
+ // Values from the classic Mastodon UI
+
+ // 明确范围边界 
+// $classic-base-color: #282c37;         // Midnight Express
+ $classic-primary-color: #9baec8;      // Echo Blue
+ $classic-secondary-color: #d9e1e8;    // Pattens Blue
+ $classic-highlight-color: #2b90d9;    // Summer Sky
+
+ $classic-base-color: #ddeceb;         // background color 
+ //+$classic-secondary-color: #8B9594;    //  navigation bar text color
+ //+$classic-highlight-color: #1A8E85;    // button background color
+ //+$classic-primary-color: #8B9594;    // 用户目录的勾选
+ 
 
 
-// Variables for defaults in UI
+// Variables for defaults in UI 原有的
+//$base-shadow-color: $black !default;
+//$base-overlay-background: $black !default;
+//$base-border-color: $white !default;
+//$simple-background-color: $white !default;
+//$valid-value-color: $success-green !default;
+//$error-value-color: $error-red !default;
+
+
+// Variables for defaults in UI 改后的
 $base-shadow-color: $black !default;
 $base-overlay-background: $black !default;
-$base-border-color: $white !default;
-$simple-background-color: $white !default;
+$base-border-color: rgb(21, 136, 78) !default;
+$simple-background-color: #62d92b !default;
 $valid-value-color: $success-green !default;
 $error-value-color: $error-red !default;
 
-
-
+ // Tell UI to use selected colors
+ $ui-base-color: $classic-base-color !default;                  // Darkest
+ $ui-base-lighter-color: lighten($ui-base-color, 26%) !default; // Lighter darkest
+ $ui-primary-color: $classic-primary-color !default;            // Lighter
+ $ui-secondary-color: $classic-secondary-color !default;        // Lightest
+ //+$ui-base-color: lighten($classic-base-color, 26%) !default;    // lightest 
+ //+$ui-base-lighter-color: $classic-base-color !default;           // darker lightest
+ //+$ui-primary-color: $classic-primary-color !default;            // Lighter darkest
+ //+$ui-secondary-color: $classic-secondary-color !default;        // darkest used on name,navigation
+  $ui-highlight-color: $classic-highlight-color !default;
+ 
 // Tell UI to use selected colors
 $ui-base-color: lighten($classic-base-color, 26%) !default;    // lightest 
 $ui-base-lighter-color: $classic-base-color !default;           // darker lightest
@@ -36,15 +62,22 @@ $ui-secondary-color: $classic-secondary-color !default;        // darkest used o
 $ui-highlight-color: $classic-highlight-color !default;
 
 
-// Variables for texts
-$primary-text-color: #3B484F !default;   // dark text color used on post and button
-$darker-text-color: #8B9594 !default;    // lighter text color
-$dark-text-color: #8B9594 !default;  //text box default text color
-$action-button-color: #8B9594 !default; //post action hyperlink color
-$secondary-text-color: #3B484F !default;   //usr name
-$highlight-text-color: #3B484F !default;  //return,返回
+ // Variables for texts 原有的
+ //$primary-text-color: $white !default;
+ $darker-text-color: $ui-primary-color !default;
+ $dark-text-color: $ui-base-lighter-color !default;
+ $secondary-text-color: $ui-secondary-color !default;
+ $highlight-text-color: $ui-highlight-color !default;
+ $action-button-color: $ui-base-lighter-color !default;
 
-
+ // 修改后的
+ $primary-text-color: $black !default;   // dark text color used on post and button
+ //+$darker-text-color: #8B9594 !default;    // lighter text color
+ //+$dark-text-color: #8B9594 !default;  //text box default text color
+ //+$action-button-color: #8B9594 !default; //post action hyperlink color
+ //+$secondary-text-color: #3B484F !default;   //usr name
+ //+$highlight-text-color: #3B484F !default;  //return,返回
+ 
 
 
 

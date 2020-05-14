@@ -622,7 +622,7 @@
           font-weight: 500;
 
           &:focus {
-            color: $white;
+            color: $black;
           }
 
           &::placeholder {
@@ -2335,7 +2335,7 @@ a.account__display-name {
   bottom: 1.3125rem;
   right: 1.3125rem;
   background: darken($ui-highlight-color, 3%);
-  color: $white;
+  color: $black;
   border-radius: 50%;
   font-size: 21px;
   line-height: 21px;
@@ -3294,7 +3294,7 @@ a.status-card.compact:hover {
   &.active {
     .column-header__icon {
       color: $highlight-text-color;
-      text-shadow: 0 0 10px rgba($highlight-text-color, 0.4);
+      text-shadow: 0 0 10px rgba($highlight-text-color, 1);
     }
   }
 
@@ -5428,7 +5428,7 @@ a.status-card.compact:hover {
       &:active,
       &:hover,
       &:focus {
-        color: $white;
+        color: $black;
       }
     }
   }
@@ -5441,7 +5441,7 @@ a.status-card.compact:hover {
   }
 
   &__time-current {
-    color: $white;
+    color: $black;
     margin-left: 60px;
   }
 
@@ -5452,7 +5452,7 @@ a.status-card.compact:hover {
 
   &__time-sep,
   &__time-total {
-    color: $white;
+    color: $black;
   }
 
   &__volume {
@@ -5463,7 +5463,7 @@ a.status-card.compact:hover {
     &::before {
       content: "";
       width: 50px;
-      background: rgba($white, 0.35);
+      background: rgba($black, 0.35);
       border-radius: 4px;
       display: block;
       position: absolute;
@@ -5504,7 +5504,7 @@ a.status-card.compact:hover {
       text-decoration: none;
       font-size: 14px;
       font-weight: 500;
-      color: $white;
+      color: $black;
 
       &:hover,
       &:active,
