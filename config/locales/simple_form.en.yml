@@ -58,7 +58,7 @@ en:
       form_challenge:
         current_password: You are entering a secure area
       imports:
-        data: CSV file exported from another Mastodon server
+        data: CSV file exported from another Nuwa server
       invite_request:
         text: This will help us review your application
       sessions:

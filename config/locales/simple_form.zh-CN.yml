@@ -58,7 +58,7 @@ zh-CN:
       form_challenge:
         current_password: 您正在进入安全区域
       imports:
-        data: 从其他 Mastodon 服务器导出的 CSV 文件
+        data: 从其他 Nuwa 服务器导出的 CSV 文件
       invite_request:
         text: 这会有助于我们处理你的申请
       sessions:
