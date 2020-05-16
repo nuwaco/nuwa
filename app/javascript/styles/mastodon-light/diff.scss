@@ -7,21 +7,21 @@ html {
 
 // Change the colors of button texts
 .button {
-  color: $black;
+  color: $white;
 
   &.button-alternative-2 {
-    color: $black;
+    color: $white;
   }
 }
 
 .status-card__actions button,
 .status-card__actions a {
-  color: rgba($black, 0.8);
+  color: rgba($white, 0.8);
 
   &:hover,
   &:active,
   &:focus {
-    color: $black;
+    color: $white;
   }
 }
 
@@ -142,7 +142,7 @@ html {
 }
 
 .compose-form__autosuggest-wrapper,
-.poll__text input[type="text"],
+.poll__option input[type="text"],
 .compose-form .spoiler-input__input,
 .compose-form__poll-wrapper select,
 .search__input,
@@ -286,7 +286,7 @@ html {
 }
 
 .privacy-dropdown.active .privacy-dropdown__value.active .icon-button {
-  color: $black;
+  color: $white;
 }
 
 .account-gallery__item a {
@@ -345,7 +345,7 @@ html {
 .simple_form .block-button,
 .simple_form .button,
 .simple_form button {
-  color: $black;
+  color: $white;
 }
 
 .dropdown-menu__separator {
