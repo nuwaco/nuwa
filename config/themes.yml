@@ -1,2 +1,1 @@
 default: styles/mastodon-light.scss
-mastodon-light: styles/contrast.scss
