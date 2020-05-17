@@ -99,7 +99,11 @@ module AccountsHelper
   end
 
   def svg_logo
-    content_tag(:svg, tag(:use, 'xlink:href' => '#mastodon-svg-logo'), 'viewBox' => '0 0 216.4144 232.00976')
+    content_tag(:svg, tag(:use, 'xlink:href' => '#mastodon-svg-logo-full1'), 'viewBox' => '0 0 141.7 141.7')
+  end
+
+  def svg_logo1
+    content_tag(:svg, tag(:use, 'xlink:href' => '#mastodon-svg-logo-full1'), 'viewBox' => '0 0 216.4144 232.00976')
   end
 
   def svg_logo_full
